@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event</title>
+    <style>
+      body {
+        /* font-family: sans-serif; */
+        padding: 20px;
+      }
+      .box {
+        width: 100px;
+        height: 30px;
+        background: blue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      .active {
+        background: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box" class="box">Box</div>
+      <button id="btn">Click</button>
+
+      <form id="myForm" style="margin-top: 10px">
+        <input type="text" id="inp" placeholder="Type..." />
+        <button type="submit">Submit</button>
+      </form>
+
+      <p id="out">Output here</p>
+    </div>
+    <script src="/08_events.js"></script>
+  </body>
+</html>
